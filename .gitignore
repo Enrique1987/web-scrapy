@@ -1,0 +1,21 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Browser-driver downloads: install or manage them locally instead of committing binaries
+chromedriver_win32/
+chromedriver-win64/
+chromedriver_win32.zip
+02_Selenium/chromedriver-win64/
+02_Selenium/edgedriver_win64/
+02_Selenium/edgedriver_win64.zip
+02_Selenium/sel119/
